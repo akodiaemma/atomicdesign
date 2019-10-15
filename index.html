@@ -1,4 +1,9 @@
-<html lang="en" class=" js no-touch svg inlinesvg svgclippaths no-ie8compat js no-touch svg inlinesvg svgclippaths no-ie8compat"><!--<![endif]--><head>
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+<head>
 <meta charset="utf-8">
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width">
@@ -11,6 +16,8 @@ Sytle sheets start here
   <link rel="stylesheet" href="https://dl.dropbox.com/s/8v0xldzd6ok2juw/foundation.min.css?dl=0">
   <link rel="stylesheet" href="https://dl.dropbox.com/s/3tqn69k382fxxu5/app.css?dl=0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="foundation.css">
+  <link rel="stylesheet" href="foundation.min.css">
    <!-- Stylesheets end here -->
     
     
@@ -73,12 +80,23 @@ This is where the navigation bar is located
        <!-- headerContainer is a molecule ends here-->
       
     <!-- doctor content starts here - this is an organism-->
-<div class="patients-you-might-know">
-  <div class="add-patients-header">
-    <p class="header-title">
-      Care Paths
-    </p>
-  </div>
+<div class="top-bar">
+<div class="top-bar-left">
+<ul class="dropdown menu" data-dropdown-menu="" role="menubar" data-e="bhs3gb-e">
+<li class="menu-text" role="menuitem">Care Path</li>
+
+
+
+</ul>
+</div>
+<div class="top-bar-right">
+<ul class="menu">
+<li><input type="search" placeholder="Search"></li>
+<li><button type="button" class="button">Search</button></li>
+</ul>
+</div>
+</div><div class="patients-you-might-know">
+  
     
   
 <!-- ---------------------------------------------
