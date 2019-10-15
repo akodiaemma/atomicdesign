@@ -97,6 +97,10 @@ a img {
 .top-bar ul>li:not(.name):hover, .top-bar ul>li:not(.name).active, .top-bar ul>li:not(.name):focus {
     background: none;
 }
+
+.top-bar{
+    padding: 70%;
+}
 /* -----------------------------------------
    Main Section - this is an organism
 ----------------------------------------- */
